@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'FranklySpokenTwo';
+    src:url('FranklySpokenTwo.ttf.woff') format('woff'),
+        url('FranklySpokenTwo.ttf.svg#FranklySpokenTwo') format('svg'),
+        url('FranklySpokenTwo.ttf.eot'),
+        url('FranklySpokenTwo.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+    ul, ol, li {
+       
+    }
+#Margem {
+    width: 80%;
+    color:lightgrey;
+    position: center;
+}
+#Header {
+  height:100px;
+  width:100%;
+  min-width: 800px;
+  background-color: red;
+  color: white;
+}
+#Header-content{
+    width: 80%;
+    margin: 0 auto;
+}
+#Logo{
+  height:100px;
+  margin-top:40px;
+  float:left;
+  font-family:'FranklySpokenTwo';
+}
+.SubTitulo{
+    font-size:7px;
+}
+.MenuIcon{
+	float: left;
+	width:50px;
+	
+	margin-top: 35px;
+	display:none;
+}	
+#Main {
+  height:1000px;
+  width:80%;
+  min-width:800px;
+  margin: 50px auto;
+  background-color: white;
+  color: yellow;
+}
+
+.SubBody {
+  height:300px;
+  width:23%;
+  margin: 50px 1% 0 1%;
+
+  background-color: white;
+  color: black;
+  float: left;
+  display:block;
+}
+.SubBody h1{
+	font-family:'FranklySpokenTwo';
+	color:red;
+}
+.SubBody ul{
+	border-top: solid 1px gray;
+	
+}
+
+.example {
+    color: #FFF;
+    float: right;
+    margin-top: 50px;
+    width: 50%;
+	font-family:'FranklySpokenTwo';
+}
+    .example-item {
+        width: 25%;
+        height: 50px;
+        display:inline-block;
+        
+        float: left;
+     }
+        .example-item_first {
+            background-color: red;
+            text-align: center;
+            line-height: 50px;
+            font-size: 10px;
+        }
+a{
+	color: white;
+}	
+.example li:hover{
+	background-color: #8B0000;;
+}	
+.botaoShowMore{
+	color: white;
+	background-color:red;
+	text-align: center;
+	width:95%;
+	height:40px;
+	display:none;
+}
+.botaoShowMore a{
+	line-height: 40px;
+}
+@media screen and (max-width: 500px){
+	.SubBody{
+		width:100%;
+		float:left;
+
+	}
+	.SubTitulo{
+		display:none;
+	}
+	.MenuIcon{
+		display:block;
+	}
+	#Header{
+		text-align: center;
+		min-width:0;
+	}
+	#Logo{
+		margin: 0 auto;
+		width:80%;
+	}
+	#Main{
+		width:100%;
+		min-width:0px;
+	}
+	#Logo h1{
+		width:100%
+		font-size:10px;
+		margin:0 auto;
+		line-height: 100px;
+	}	
+	.example{
+		display:none;
+	}
+	.botaoShowMore{
+		display:block;
+	}
+}
